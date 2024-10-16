@@ -7,7 +7,7 @@ Release:        %mkrel 1
 Summary:        Cross Compiling GNU binutils targeted at %{target}
 Group:          Development/Tools
 License:        GPLv2+
-URL:            http://www.gnu.org/software/binutils/
+URL:            https://www.gnu.org/software/binutils/
 Source0:        ftp://ftp.gnu.org/pub/gnu/binutils/binutils-%{version}.tar.bz2
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-%(%{__id_u} -n)
 BuildRequires:  gawk texinfo
